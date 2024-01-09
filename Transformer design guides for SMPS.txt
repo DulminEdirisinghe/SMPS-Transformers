@@ -1,0 +1,32 @@
+Transformer design guides for SMPS
+
+Reasons for audible noise 
+	-> First of all the transformer should be varnished to remove the possibility of physical movement.
+		-due to magnetic pulse pizeo magnetic materials tend to change their shape generating audible noise
+
+	-> Prime candidates are ceramic or magnetic devices.
+		- Ceramic capacitors that undergo high dv/dt swings often 
+		   prove to be audibly noisy.
+
+	-> Long core transformers also tend to resonate more audibally than those of short core length, where possible, consider
+ 	    changing to an  alternative shorter core. 
+
+
+	-> Replace the ceramic capacitors with film capacitors.
+
+	-> Avoid using feromagnetic materials.
+
+	 -> Fix the operating switch frequency
+		- Try to avoid the switch frequency in the rangeof audible noise bandwidth. 
+
+	-> Could be an effect of Pulse Bunching.
+
+Reasons for limited current
+	-> Core saturation. 
+			- Calculate the area needed for the minimum magnetic flux.
+
+Additional information can be found here: 
+	-> https://www.allaboutcircuits.com/textbook/alternating-current/chpt-9/practical-considerations-transformers/
+	-> https://www.electronicsforu.com/technology-trends/transformer-core-size-vs-its-current-output
+	-> https://www.power.com/sites/default/files/PIU-108_Audible%20Noise.pdf
+	->https://www.advancedenergy.com/getmedia/8621c3cd-425b-4316-bb5f-e3c8abf62b2d/en-lv-audible-noise-in-switch-power-supply-			   application-note.pdf
