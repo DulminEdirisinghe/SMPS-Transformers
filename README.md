@@ -1,3 +1,3 @@
 # SMPS-Transformers
-A simple design guide for troble shooting noisy transformers.<br>
+A simple design guide for troubleshooting noisy transformers.<br>
 
